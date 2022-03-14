@@ -1,0 +1,7 @@
+vagrant ssh
+sudo yum -y install kernel-devel
+sudo yum update -y
+sudo  yum install gcc make perl -y
+exit
+vagrant halt
+vagrant up --provision
